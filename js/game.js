@@ -742,7 +742,7 @@ function iHeartYou() {
 	if (window.location.hash) {
 		vtext.textContent = encryptString(decodeURIComponent(window.location.hash).substring(1));
 	} else {
-		vtext.textContent = "Hội bàn tròn chỉ muốn nói rằng mọi người ❤️ Én rất nhiều";
+		vtext.textContent = "Quang chỉ muốn nói rằng Quang ❤️ Yến rất nhiều";
 	}
 
 	setTimeout(function () {
@@ -930,7 +930,7 @@ window.LEVEL_CONFIG = [
 		circles: [
 			{ x: 150, y: 150, radius: 115 }
 		],
-		countdown: 130
+		countdown: 160
 	}
 
 ];
