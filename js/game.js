@@ -742,7 +742,7 @@ function iHeartYou() {
 	if (window.location.hash) {
 		vtext.textContent = encryptString(decodeURIComponent(window.location.hash).substring(1));
 	} else {
-		vtext.textContent = "Quang chỉ muốn nói rằng Quang ❤️ Yến rất nhiều";
+		vtext.textContent = "Hội bàn tròn chỉ muốn nói rằng mọi người ❤️ Yến rất nhiều";
 	}
 
 	setTimeout(function () {
